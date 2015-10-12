@@ -136,11 +136,6 @@ public class FlightsApplication implements CommandLineRunner {
 		return response;
 	}
 
-	@RequestMapping("/flightSearch")
-	public String whoami() {
-		return "{ \"id\": \"1234\", \"content\": \"Wasabi!\" }";
-	}
-
 	public static void main(String[] args) {
 		SpringApplication.run(FlightsApplication.class, args);
 	}
